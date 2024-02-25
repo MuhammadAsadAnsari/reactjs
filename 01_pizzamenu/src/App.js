@@ -65,7 +65,6 @@ function Menu(){
   return (
     <main className='menu'>
       <h3> Our Menu</h3>
-
       {pizzas> 0 ? <> 
       <p>We are currently serving 6 pizzas</p> <ul className='pizzas'>
         {
