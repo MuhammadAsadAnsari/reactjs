@@ -6,6 +6,8 @@ const pizzaData = [
     price: 6,
     photoName: "pizzas/focaccia.jpg",
     soldOut: false,
+    
+   
   },
   {
     name: "Pizza Margherita",
@@ -44,6 +46,7 @@ const pizzaData = [
   },
 ];
 function App() {
+  const [step, setstep] = useState(1)
   return (
     <div className="App">
         <Header />
